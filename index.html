@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a7104411ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#certification">Certification</a></li>
+                    
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Sports Teacher </p>
+                <h1> Hi I'm <span>Sanket Ubale</span></h1>
+            </div>
+        </div>
+    </div>
+<!--__________________________about____________________________-->
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/user.jpg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p> Dedicated and passionate Sports Teacher currently working at Ganesh International 
+                    School, Chikhali, Pune. Skilled in coaching and training students in various sports 
+                    including Kabaddi, Cricket, Volleyball, and Dodgeball. Experienced in developing 
+                    students physical fitness, teamwork, and sportsmanship.A national-level player in 
+                    Cricket, Kabaddi, and Dodgeball with winning achievements in national competitions. 
+                    Committed to promoting a healthy and active lifestyle among students while helping 
+                    them achieve excellence in sports.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('role')">Role & Responsibility</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+        </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>• Languages: </span> Marathi, Hindi, English </li>
+                    <li><span>• Frameworks: </span> Selenium, TestNG</li>
+                    <li><span>• Frontend Technologies: </span> HTML, CSS, JavaScript</li>
+                    <li><span>• Databases: </span>MySQL</li>
+                     <li><span>• Cloud Services:</span> AWS</li>
+                     <li><span>• Containerization:</span> Docker</li>
+                     <li><span>• Orchestration: </span>Kubernetes</li>
+                     <li><span>• Project Build Tools:</span> Maven, Gradle</li>
+                     <li><span>• Version Control:</span> Git, GitHub</li>
+                     <li><span>• CI/CD Tools:</span> Jenkins</li>
+                     <li><span>• Testing Tools:</span> JUnit</li>
+                     <li><span>• API Tools:</span> Postman</li>
+                </ul>
+            </div>
+
+             <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2025-current</span><br>Sports Teacher at Ganesh International School Pune</li>
+                            <li><span>2022-present</span><br> State and District Level Kabaddi Referee. </li>
+                            <li><span>Sports Trainer</span><br>Sports Coach at Shree Swarajya Pratishthan Chh Sambhajinagar</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="role">
+                <ul>
+                   <p>
+• Sports Coaching (Kabaddi, Cricket, Volleyball, Kho- Kho, Dodgeball etc.). <br>
+• Physical Fitness and Wellness Training </br>
+• Event Organization </br>
+• Student Mentoring and Discipline </br>
+• Organized inter-house and inter-school sports competitions and tournaments. </br>
+• Monitored students during sports activities to ensure safety and proper use of equipment. </br>
+• Identified talented students and trained them for school teams and competitions. </br>
+• Coordinated with school management to plan annual sports day and other physical activities.
+                   </p>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Msc (2024-2026) </span><br>Dr Babasaheb Ambedkar Marathwada University, Chh Sambhajinagar.</li>
+                    <li><span>Bsc (2019-2023) </span><br>Dr Babasaheb Ambedkar Marathwada University, Chh Sambhajinagar.</li>
+                    <li><span>HSC (2019) </span><br>Orchid School, Chh Sambhajinagar.</li>
+                    <li><span>SSC (2017) </span><br>Orchid School, Chh Sambhajinagar.</li>
+                </ul>
+            </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div id="certification">
+    <div class="certi"></div>
+    <img src="images/NationalSportsHaryana2021.jpg">  
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><i class="fa-solid fa-user-group"></i>Contact me</h1>
+                <p>sanketubale8@gmail.com <i class="fa-regular fa-envelope-open"></i></p>
+                <p><i class="fa-solid fa-comment-sms"> 8380809495 </i></p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sanku8080/"><i class="fa-brands fa-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/in/sanket-ubale-7a6111230?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin-in"></i> </a>
+                    <a href="https://x.com/Bshree77"><i class="fa-brands fa-x-twitter"></i> </a>
+                </div>
+<a href="images/SanketResume.pdf" download class="cv"><i class="fa-solid fa-file-pdf"></i> Download CV</a>
+            </div>
+           
+        </div>
+        <div class="copyright">
+            <p> copyright@Sanket </p>
+        </div>
+    </div>
+</div>
+
+<!--________________JavaScript_______________-->
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+    for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right='-210px';
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxjx0MXZu6N8gg4-JieGEqqFpu10SsPpXBQR3zwKA9emmOEQ9LhYehrY1gJSF6mCHJf/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Thank you!!!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+
+</body>
+</html>
